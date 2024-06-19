@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Vjo4tUVUeKj5+3mLp9GdW9e2tg3Q" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Vjo4tUVUeKj5+3mLp9GdW9e2tg3Q" crossorigin="anonymous">
+        </script>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>
+        SISTEMA DE CADASTRO DE MUNÍCIPES
+    </title>
+    </header>
+
+<body>
+    <header>
+        <div class="px-3 py-2 custom-blue-bg border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+
+                    <ul
+                        class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small justify-content-center">
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#speedometer2" />
+                                </svg>
+                                <button class="btn btn-primary">HOME</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#funcionalidades" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#speedometer2" />
+                                </svg>
+                                <button class="btn btn-primary">FUNCIONALIDADES</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#desenvolvedor" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#table" />
+                                </svg>
+                                <button class="btn btn-primary">DESENVOLVEDOR</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#descricao" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#grid" />
+                                </svg>
+                                <button class="btn btn-primary">DESCRIÇÃO</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sistema" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#grid" />
+                                </svg>
+                                <button class="btn btn-primary">SISTEMA</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#preco" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#table" />
+                                </svg>
+                                <button class="btn btn-primary">PREÇOS</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contato" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#people-circle" />
+                                </svg>
+                                <button class="btn btn-primary">CONTATO</button>
+                            </a>
+                        </li>
+                    </ul>
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="custom-blue-bg1 text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-black">SISTEMA DE CADASTRO DE MUNÍCIPES</h1>
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-3 py-5" id="funcionalidades">
+        <center>
+            <h2 class="pb-2 border-bottom">FUNCIONALIDADES</h2>
+        </center>
+        <div class="">
+            <center>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-newspaper" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z" />
+                            <path
+                                d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z" />
+                        </svg>
+                    </div>
+
+                    <h3 class="fs-2 text-body-emphasis">CADASTRO DE MUNÍCIPES</h3>
+                    <p>Coleta de informações pessoais como nome, endereço, CPF, data de nascimento, etc.</p>
+                    <p>Geração automática de um identificador único para cada munícipe.</p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">CONSULTA DE DADOS</h3>
+                    <p>Busca informações de um munícipe específico utilizando seu identificador ou nome.</p>
+
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                            <path
+                                d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9" />
+                            <path fill-rule="evenodd"
+                                d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">ATUALIZAÇÃO DE DADOS</h3>
+                    <p>Modificação de dados cadastrais de um munícipe.</p>
+
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-archive" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis"> EXCLUSÃO DE DADOS</h3>
+                    <p>Remoção de registros de munícipes que não correspondem mais aos critérios de cadastro, ( os
+                        falecidos
+                        ) .
+                    </p>
+                </div>
+            </center>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class="container my-5">
+        <div class="p-5 text-center">
+            <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
+                <use xlink:href="#bootstrap" />
+            </svg>
+            <div class="container">
+                <header class="header" id="desenvolvedor">
+                    <br><br><br>
+                    <h1>ÁREA DO DESENVOLVEDOR</h1>
+                </header>
+                <section>
+                    <h2 class="section-title">Minhas Habilidades e Ferramentas</h2>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <h3>HTML & CSS</h3>
+                            <p>Criação de layouts responsivos e semânticos com HTML5 e CSS3.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>JavaScript</h3>
+                            <p>Desenvolvimento de funcionalidades dinâmicas e interativas.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Frameworks & Bibliotecas</h3>
+                            <p>Experiência com React</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Backend</h3>
+                            <p>Desenvolvimento com Node.js, React.js, Express, MySQL e Workbench</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Controle de Versão</h3>
+                            <p>Uso de Git e GitHub para controle de versão e colaboração em equipe.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Metodologias Ágeis</h3>
+                            <p>Experiência em metodologias ágeis como Scrum, Canvas e Kanban.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class="container my-5">
+        <div class="p-5 text-center ">
+            <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
+                <use xlink:href="#bootstrap" />
+            </svg>
+            <div class="container">
+                <header class="header" id="descricao">
+                    <br><br><br><br><br><br><br>
+                    <h1>DESCRIÇÃO DO SISTEMA</h1>
+                    <br><br>
+                </header>
+                <section>
+                    <div class="feature-list">
+                        <h2>O Sistema de Cadastro de Munícipes é uma aplicação web desenvolvida para gerenciar
+                            informações de residentes de uma determinada cidade ou município. O sistema permite a
+                            criação, visualização, atualização e exclusão de registros de munícipes, garantindo uma
+                            gestão eficiente e organizada dos dados dos cidadãos.
+                        </h2>
+                        <h2>
+                            O sistema de CRUD para cadastro de Munícipes oferece uma solução simples e eficaz para
+                            acompanhar o ciclo de vida dos Munícipes. Com as funcionalidades intuitivas, você pode
+                            gerenciar seus relatorios de forma organizada e sem complicações.
+                        </h2>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div id="sistema">
+        <center>
+            <br><br><br><br><br>
+            <h1>!!! CAPTURAS DE TELAS DO SISTEMA !!!</h1>
+        </center>
+        <br><br><br><br><br>
+        <center>
+            <img src="menu.png" alt="" class="tela" height="200">
+
+            <br><br><br>
+            <div class="video-container">
+                <video width="300" height="200" controls class="captura1">
+                    <source src="cadastro.mp4" type="video/mp4">
+                </video>
+                <br><br>
+                <video width="300" height="200" controls class="captura2">
+                    <source src="consulta.mp4" type="video/mp4">
+                </video>
+                <br><br>
+            </div>
+            <br><br>
+            <div class="video-container2">
+                <video width="300" height="200" controls class="captura3">
+                    <source src="atualizar.mp4" type="video/mp4">
+                </video>
+                <br><br>
+                <video width="300" height="200" controls class="captura4">
+                    <source src="deletar.mp4" type="video/mp4">
+                </video>
+            </div>
+            <br><br>
+        </center>
+    </div>
+
+    <div id="preco">
+        <center>
+            <br><br><br><br><br><br>
+            <h1> PLANOS DO SISTEMAS</h1>
+        </center>
+        <br><br><br><br><br>
+        <div class=" card-header justify-content-center row row-cols-1 row-cols-md-5 mb-5 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">GRATIS</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small
+                                class="text-body-secondary fw-light">/mês</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 Usuários Incluidos</li>
+                            <li>2 GB de Armazenamento</li>
+                            <li>Email de apoio</li>
+                            <li>Acesso à Central de Ajuda</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Cadastre-se
+                            Gratuitamente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">MENSAL</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$36,70<small
+                                class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 Usuários Incluidos</li>
+                            <li>10 GB de Armazenamento </li>
+                            <li>Suporte Prioritário por E-mail</li>
+                            <li>Acesso à Central de Ajuda</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Iniciar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">ANUAL</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$367,00<small
+                                class="text-body-secondary fw-light">/anual</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>35 Usuários Incluidos</li>
+                            <li>15 GB de Armazenamento</li>
+                            <li>Suporte por Telefone e E-mail</li>
+                            <li>Acesso à Central de Ajuda</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contrate-nos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container contact-section" id="contato">
+        <div class="row justify-content-center">
+            <center>
+                <div class="contato">
+                    <br>
+                    <h2 class="text-center mb-4">ENTRE EM CONTATO CONOSCO</h2>
+                    <div class="contact-info">
+                        <div class="contact-detail">
+                            <h4>Endereço:</h4>
+                            <p>Rua Exemplo, 123</p>
+                            <p>Bairro Exemplo</p>
+                            <p>Cidade, Estado, CEP</p>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Email:</h4>
+                            <p><a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Telefone:</h4>
+                            <p>(99) 99999-9999</p>
+                        </div>
+                        <br>
+                        <form action="enviar_email.php" method="POST">
+                            <div class="contact-detail">
+                                <label for="nome">NOME:</label><br>
+                                <input type="text" id="nome" name="nome" required><br><br>
+
+                                <label for="email">E-mail:</label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+
+                                <label for="assunto">ASSUNTO :</label><br>
+                                <input type="text" id="assunto" name="assunto" required><br><br>
+
+                                <label for="mensagem">MENSAGEM:</label><br>
+                                <textarea id="mensagem" class="form-control" name="mensagem" rows="4"
+                                    required></textarea><br><br>
+
+                                <button class="lixa" type="submit" value="enviar">ENVIAR</button><br><br>
+                                <button class="lixa" type="reset" value="limpar">LIMPAR</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="roda">
+        <center>
+            <br>
+            <a href="">&copy; 2024 Companhia.SA-ademilson.leal@ba.estudante.senai.br</a>
+            <br>
+            <br>
+        </center>
+        <ul class="list-unstyled d-flex">
+        </ul>
+    </div>
+</body>

@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(240, 240, 152);
+}
+.container-my-5{
+    background-color: burlywood;
+}
+.card-body{
+    justify-items: center;
+}
+
+.custom-blue-bg {
+    background-color: rgb(171, 236, 131);
+    color: rgb(12, 2, 2);
+
+    button {
+        background-color: blue;
+        border-color: yellow;
+        color: #e0ee1d;
+        border: 1px solid rgb(231, 243, 67);
+        box-shadow: 5px 5px 5px rgb(242, 245, 55);
+    }
+
+}
+
+.custom-blue-bg1 {
+    background-color: rgb(211, 202, 202);
+    
+}
+
+button {
+    background-color: rgb(223, 241, 240);
+    color: #fff;
+    width: 180px;
+
+}
+
+.captura1{
+    margin-right: 20px;
+}
+
+.captura2{
+    margin-left: 20px;
+}
+.captura3{
+    margin-right: 20px;
+}
+
+.captura4{
+    margin-left: 20px;
+}
+body{
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.roda{
+    background-color: rgb(211, 202, 202);
+    color: rgb(0, 0, 0);
+}
+textarea{
+    width: 400PX;
+}
+.lixa{
+    background-color: rgb(211, 202, 202);
+    color: rgb(0, 0, 0);  
+}
+.lixa:hover{
+    background-color: rgb(48, 159, 224);
+    color: rgb(0, 0, 0);
+}
+.contato{
+    textarea{
+        width: 400px;
+    }
+}
